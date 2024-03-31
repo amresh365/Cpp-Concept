@@ -3,8 +3,6 @@ using namespace std;
 
 int great(int a[],int n)
 {
-
-
 	int *p;
 	p=&a[1];
 	int c;
@@ -16,7 +14,6 @@ for(int i=0;i<n;i++)
 	{
 	return a[i];
 	}	
-
 }
 }
 int main()
