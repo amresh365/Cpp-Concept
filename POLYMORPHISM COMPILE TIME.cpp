@@ -5,7 +5,7 @@ class st
 {
 	public:
 		void fun()
-	{
+	        {
 		cout<<"no argument"<<endl;
 		}	
 		void fun(int x)
