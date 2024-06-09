@@ -9,20 +9,22 @@ class complex
 			{
 			a=x,b=y;	
 			}
-	 void showdata()
-	 {
-	 	
-	 cout<<"\na="<<a<<"\nb="<<b;	
-	 }
-	complex sum(complex c)
-	{
-		complex temp;
-		temp.a=a+c.a;
-		temp.b=b+c.b;
-		return temp;
-	}
-	
+	 
+	                complex sum(complex c)
+	                {
+		         complex temp;
+		         temp.a=a+c.a;
+		         temp.b=b+c.b;
+		         return temp;
+	                }
+
+                 void showdata()
+	       {
+	         cout<<"\na="<<a<<"\nb="<<b;	
+	       }
 };
+
+
 main()
 {
 	complex c1,c2,c3;
